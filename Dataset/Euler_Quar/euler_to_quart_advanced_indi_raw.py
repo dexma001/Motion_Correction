@@ -52,7 +52,7 @@ def process_motion_for_unity(raw_motion):
     positions = reshaped_data[:, :, 0:3]
     flat_euler = reshaped_data[:, :, 3:6].reshape(-1, 3)
     
-    quaternions = R.from_euler('ZXY', flat_euler, degrees=True).as_quat()
+    quaternions = R.from_euler('zxy', flat_euler, degrees=True).as_quat()
     quaternions = quaternions.reshape(num_frames, num_joints, 4)
     
     unity_positions = positions.copy()
