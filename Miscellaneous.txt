@@ -1,0 +1,23 @@
+.bvh: 오른손 좌표계, Y_up
+
+Unity: 왼손 좌표계, Y_up 
+
+Blender: 오른손 좌표계, Z_up
+
+VMC Protocol format: https://protocol.vmc.info/english
+
+Root Transform: 
+v2.0
+/VMC/Ext/Root/Pos (string){name} (float){p.x} (float){p.y} (float){p.z} (float){q.x} (float){q.y} (float){q.z} (float){q.w}  
+
+Bone Transform:
+/VMC/Ext/Bone/Pos (string){name} (float){p.x} (float){p.y} (float){p.z} (float){q.x} (float){q.y} (float){q.z} (float){q.w}
+
+Device Transform(Not sure for use):
+V2.2
+/VMC/Ext/Hmd/Pos (string){serial} (float){p.x} (float){p.y} (float){p.z} (float){q.x} (float){q.y} (float){q.z} (float){q.w}  
+/VMC/Ext/Con/Pos (string){serial} (float){p.x} (float){p.y} (float){p.z} (float){q.x} (float){q.y} (float){q.z} (float){q.w}  
+/VMC/Ext/Tra/Pos (string){serial} (float){p.x} (float){p.y} (float){p.z} (float){q.x} (float){q.y} (float){q.z} (float){q.w}  
+
+
+   

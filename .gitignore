@@ -1,13 +1,14 @@
+#Dataset 
 Bandai_Dataset
 Bandai_Dataset_npys
 Bandai_Dataset_npys_2
+Euler_6D
 
-*_weight
+#가중치 file
+*.pth
 
+#Miscellaneous
 *.fbx
-
 *.npy
 *.npz
-
 *.json
-
