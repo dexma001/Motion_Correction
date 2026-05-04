@@ -5,3 +5,9 @@ Bandai_Dataset_npys_2
 *_weight
 
 *.fbx
+
+*.npy
+*.npz
+
+*.json
+
