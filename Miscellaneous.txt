@@ -4,7 +4,13 @@ Unity: 왼손 좌표계, Y_up
 
 Blender: 오른손 좌표계, Z_up
 
-BVH 파일 정리: https://wisejlog.tistory.com/17
+==========================================================
+
+BVH 파일 정리: 
+https://wisejlog.tistory.com/17
+https://gofo-coding.tistory.com/entry/Character-Animation
+
+==========================================================
 
 VMC Protocol format: https://protocol.vmc.info/english
 
