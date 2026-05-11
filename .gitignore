@@ -5,8 +5,11 @@ Euler_6D
 #가중치 file
 *.pth
 
+!/Warudo_Send_Temp/Sample_Data
+
 #Miscellaneous
 *.fbx
-*.npy
+*.npy 
 *.npz
 *.json
+
